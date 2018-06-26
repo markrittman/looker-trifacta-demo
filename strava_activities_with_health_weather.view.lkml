@@ -1,5 +1,6 @@
 view: strava_activities_with_health_weather {
   sql_table_name: personal_data_warehouse.strava_activities_with_health_weather ;;
+  view_label: "Strava Stats Analysis"
 
   measure: achievement_count {
     type: sum

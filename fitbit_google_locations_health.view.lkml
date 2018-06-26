@@ -1,5 +1,6 @@
 view: fitbit_google_locations_health {
   sql_table_name: personal_data_warehouse.fitbit_google_locations_health ;;
+  view_label: "Daily Health and Locations"
 
   measure: average_calories_walking {
     type: average
